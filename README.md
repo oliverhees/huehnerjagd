@@ -1,5 +1,7 @@
 <div align="center">
 
+![Hühnerjagd — Browser-Cursor-Shooter](docs/assets/banner.jpg)
+
 # 🐔 HÜHNERJAGD
 
 **Ein Browser-Cursor-Shooter im Stil des klassischen 90er-Arcade-Genres — 3 Level, komplett KI-generiert, gebaut als Showcase für Claude Opus 5.5.**
@@ -12,7 +14,7 @@
 
 *Kein Build-Tool, kein Framework, kein Server nötig — Datei öffnen, spielen. Kein einziges Pixel ist kopiert: Hintergründe, Hühner, Fliegen, Schafe und Sonderziele sind alle von Grund auf KI-generiert.*
 
-[Spielen](#-spielen) · [Was drinsteckt](#-was-drinsteckt) · [Level](#-die-3-level) · [Tech-Stack](#-tech-stack) · [Die KI-Pipeline](#-die-ki-pipeline) · [Warum das hier existiert](#-warum-das-hier-existiert) · [Lizenz](#-lizenz) · [Marken](#️-marken)
+[Spielen](#-spielen) · [Was drinsteckt](#-was-drinsteckt) · [Level](#-die-3-level) · [Screenshots](#-screenshots) · [Tech-Stack](#-tech-stack) · [Die KI-Pipeline](#-die-ki-pipeline) · [Warum das hier existiert](#-warum-das-hier-existiert) · [Lizenz](#-lizenz) · [Marken](#️-marken)
 
 </div>
 
@@ -45,6 +47,12 @@ Kein `npm install`, kein Server, keine Abhängigkeiten. Die Datei läuft direkt 
 | 1 | Wiese mit Baum & Scheune | Hühner (normal + golden) | Fliegen durch den Himmel |
 | 2 | Küche | Fliegen (normal + golden) | Erratisches Zick-Zack-Fliegen, eigener Klatschen-Cursor |
 | 3 | Weide | Schafe (normal + Regenbogen-Bonus) | Hüpfen am Boden entlang |
+
+## 📸 Screenshots
+
+| Level 1 — Hühnerjagd | Level 2 — Fliegenjagd | Level 3 — Schafsprung |
+|---|---|---|
+| ![Level 1](docs/screenshots/level1-huehner.jpg) | ![Level 2](docs/screenshots/level2-fliegen.jpg) | ![Level 3](docs/screenshots/level3-schafe.jpg) |
 
 ## 🛠️ Tech-Stack
 
