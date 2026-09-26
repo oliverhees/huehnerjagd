@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hühnerjagd</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐔</text></svg>">
+<link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+  <div id="game-area" data-level="0">
+    <div id="scenery-back" class="level0-decor">
+      <img id="barn-img" src="assets/barn.png" alt="" draggable="false">
+      <div id="barn-smoke">
+        <span></span><span></span><span></span>
+      </div>
+      <div id="ambient-chickens">
+        <img class="ambient-chicken" src="assets/chicken_normal_up.png" alt="" draggable="false">
+        <img class="ambient-chicken ambient-chicken--2" src="assets/chicken_normal_down.png" alt="" draggable="false">
+      </div>
+    </div>
+
+    <div id="hud">
+      <div id="score-display">Punkte: <span id="score">0</span></div>
+      <div id="level-display">Level <span id="level-num">1</span>/<span id="level-total">3</span></div>
+      <div id="time-display">Zeit: <span id="time">60</span></div>
+    </div>
+
+    <div id="birds-layer"></div>
+
+    <img id="foreground-tree" class="level0-decor" src="assets/tree.png" alt="" draggable="false">
+
+    <div id="ammo-bar">
+      <span id="ammo-label">Magazin</span>
+      <div id="ammo-track">
+        <div id="ammo-fill"></div>
+      </div>
+    </div>
+
+    <div id="start-screen" class="overlay">
+      <h1>Hühnerjagd</h1>
+      <p>Klick die fliegenden Hühner, Fliegen und Schafe ab, bevor die Zeit abläuft. 3 Level, wird jedes Mal schwerer!</p>
+      <button id="start-btn">Start</button>
+    </div>
+
+    <div id="level-transition" class="overlay hidden">
+      <h1 id="level-transition-title">Level geschafft!</h1>
+      <p id="level-transition-sub"></p>
+    </div>
+
+    <div id="end-screen" class="overlay hidden">
+      <h1>Spiel beendet!</h1>
+      <p>Dein Ergebnis: <span id="final-score">0</span> Punkte</p>
+      <div id="name-entry">
+        <label for="player-name">Dein Name</label>
+        <input type="text" id="player-name" maxlength="20" placeholder="Spieler">
+      </div>
+      <ol id="leaderboard-list"></ol>
+      <button id="restart-btn">Nochmal spielen</button>
+    </div>
+  </div>
+
+  <script src="game.js?v=4"></script>
+</body>
+</html>

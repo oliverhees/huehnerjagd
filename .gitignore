@@ -1,0 +1,10 @@
+# Interne Planungsdokumentation (nicht für die Öffentlichkeit bestimmt)
+ISA.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
